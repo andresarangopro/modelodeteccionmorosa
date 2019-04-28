@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, 'homepage.html')
+    return render(request, 'charts.html')
 # Create your views here.
